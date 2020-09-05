@@ -1,4 +1,4 @@
-module github.com/iaoiui/awssnstest
+module github.com/iaoiui/sns-go
 
 go 1.14
 
