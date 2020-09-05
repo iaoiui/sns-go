@@ -1,0 +1,35 @@
+# github.com/aws/aws-sdk-go v1.34.14
+## explicit
+# github.com/aws/aws-sdk-go-v2 v0.24.0
+## explicit
+github.com/aws/aws-sdk-go-v2/aws
+github.com/aws/aws-sdk-go-v2/aws/awserr
+github.com/aws/aws-sdk-go-v2/aws/defaults
+github.com/aws/aws-sdk-go-v2/aws/ec2metadata
+github.com/aws/aws-sdk-go-v2/aws/ec2rolecreds
+github.com/aws/aws-sdk-go-v2/aws/endpointcreds
+github.com/aws/aws-sdk-go-v2/aws/endpoints
+github.com/aws/aws-sdk-go-v2/aws/external
+github.com/aws/aws-sdk-go-v2/aws/processcreds
+github.com/aws/aws-sdk-go-v2/aws/ratelimit
+github.com/aws/aws-sdk-go-v2/aws/retry
+github.com/aws/aws-sdk-go-v2/aws/signer/internal/v4
+github.com/aws/aws-sdk-go-v2/aws/signer/v4
+github.com/aws/aws-sdk-go-v2/aws/stscreds
+github.com/aws/aws-sdk-go-v2/internal/awsutil
+github.com/aws/aws-sdk-go-v2/internal/ini
+github.com/aws/aws-sdk-go-v2/internal/rand
+github.com/aws/aws-sdk-go-v2/internal/sdk
+github.com/aws/aws-sdk-go-v2/internal/sdkio
+github.com/aws/aws-sdk-go-v2/internal/sync/singleflight
+github.com/aws/aws-sdk-go-v2/internal/timeconv
+github.com/aws/aws-sdk-go-v2/private/protocol
+github.com/aws/aws-sdk-go-v2/private/protocol/query
+github.com/aws/aws-sdk-go-v2/private/protocol/query/queryutil
+github.com/aws/aws-sdk-go-v2/private/protocol/rest
+github.com/aws/aws-sdk-go-v2/private/protocol/xml/xmlutil
+github.com/aws/aws-sdk-go-v2/service/sns
+github.com/aws/aws-sdk-go-v2/service/sts
+github.com/aws/aws-sdk-go-v2/service/sts/stsiface
+# github.com/jmespath/go-jmespath v0.3.0
+github.com/jmespath/go-jmespath
