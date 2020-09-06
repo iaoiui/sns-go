@@ -2,11 +2,13 @@ package main
 
 import (
 	"fmt"
+
+	snsutil "github.com/iaoiui/sns-go/snsutil"
 )
 
 func main() {
 	fmt.Println("launch")
-	snsHandler, err := Init()
+	snsHandler, err := snsutil.Init()
 	if err != nil {
 		fmt.Println(err)
 		return
