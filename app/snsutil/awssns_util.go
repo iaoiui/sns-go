@@ -18,7 +18,7 @@ type SnsHandler struct {
 
 var snsTopicArn string = getEnv("SNS_TOPIC_ARN", "")
 
-func (s *SnsHandler) publishAlert(message string) {
+func (s *SnsHandler) PublishAlert(message string) {
 	svc := sns.New(s.cfg)
 	publishInput := sns.PublishInput{
 		Message:  &message,

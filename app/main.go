@@ -3,7 +3,8 @@ package main
 import (
 	"fmt"
 
-	snsutil "github.com/iaoiui/sns-go/snsutil"
+	snsutil "github.com/iaoiui/sns-go/app/snsutil"
+	// snsutil "github.com/iaoiui/sns-go/app"
 )
 
 func main() {
@@ -16,5 +17,5 @@ func main() {
 
 	message := "# Pod Defect Alert\n"
 	message += "\t 2 pod is not running\n"
-	snsHandler.publishAlert(message)
+	snsHandler.PublishAlert(message)
 }
